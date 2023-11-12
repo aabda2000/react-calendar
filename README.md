@@ -5,9 +5,10 @@ L'idée est de placer les évènements sur un calendrier "automatiquement". Les 
 - un événement à un jour de commencement
 - un événement dure un jour ou plus 
 
-Une semaine est divisée en plusieurs tranches horaires fixées(par exemple 5 tranches.
+Une semaine est divisée en plusieurs tranches horaires fixées(par exemple 5 tranches).
 
 Ceux-ci sont des événements :
+
 Enseignant 1: "placer mes TDs [à la même tranche horaire] à partir de 08/11/2023 (mercredi). Durée 4 jours" 
 
 Enseignant 2:"placer mes TDs [à la même tranche horaire] à partir de 10/11/2023 (vendredi). Durée 2 jours"
