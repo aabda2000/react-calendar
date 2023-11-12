@@ -13,7 +13,7 @@ class Bulb extends React.Component<BulbProps> {
   }
 }
 
-class Calendar2 extends React.Component<BulbProps> {
+class Calendar extends React.Component<BulbProps> {
   events: Date[];
   days: number[];
   weekmask: number[];
@@ -98,7 +98,7 @@ class Calendar2 extends React.Component<BulbProps> {
   }
 }
 
-let cal = new Calendar2(false);
+let cal = new Calendar(false);
 let events: Date[];
 events = cal.getEvents();
 let daysLong = cal.getDays();
@@ -167,7 +167,7 @@ class App extends React.Component {
         </ul>
         <div></div>
         <div>
-          <Calendar2 isOn={this.state.switchOn} />
+          <Calendar isOn={this.state.switchOn} />
         </div>
       </>
     );
